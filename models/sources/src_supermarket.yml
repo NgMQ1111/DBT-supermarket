@@ -2,7 +2,7 @@ version 2:
 
 sources:
   - name: src_supermarket
-    schema: supermarket
+    schema: supermarket_staging
     tables:
       - name: aisles
       - name: departments

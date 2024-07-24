@@ -37,3 +37,18 @@ models:
         +materialized: table
     staging:
       +materialized: view
+
+
+seeds:
+  dbt_supermarket:
+    +schema: staging
+    aisles:
+      +enabled: true
+    departments:
+      +enabled: true
+    order_products:
+      +enabled: true
+    orders_small_version:
+      +enabled: true
+    products:
+      +enabled: true
